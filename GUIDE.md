@@ -1,4 +1,4 @@
-# Documentación de la Etapa 1 del Proyecto Blog y Foro Monolítico
+# Documentación de la guía de desarrollo del Proyecto Blog y Foro Monolítico
 
 ## 1. Definir Requisitos y Alcance
 
