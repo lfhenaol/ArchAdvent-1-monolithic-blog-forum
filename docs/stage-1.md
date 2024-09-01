@@ -44,7 +44,7 @@ El código debe seguir estándares de codificación y estar bien documentado par
 ## 5. Diagrama de Componentes
 
 ### 5.1. Diagrama de Componentes
-...
+![](./assets/diagrama_componentes.png)
 
 ## 6. Conclusiones
 

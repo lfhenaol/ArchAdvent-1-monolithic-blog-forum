@@ -22,16 +22,16 @@
 
 ### Estructura de Capas
 
-- **Presentación (Frontend)**: HTML, CSS, JavaScript (React.js o Vue.js).
-- **Lógica de Negocio (Backend)**: Node.js con Express.
+- **Presentación (Frontend)**: HTML, CSS, JavaScript Vue.js.
+- **Lógica de Negocio (Backend)**: Python.
 - **Acceso a Datos**: PostgreSQL.
 
 ## 3. Diseño del Sistema
 
 ### Diagrama de Componentes
 
-- **Frontend**: Aplicación web con React.js.
-- **Backend**: API RESTful con Express.js.
+- **Frontend**: Aplicación web con Vue.js.
+- **Backend**: API RESTful con FastAPI.
 - **Base de Datos**: PostgreSQL.
 
 ### Modelos de Datos
