@@ -6,7 +6,8 @@
 El objetivo del proyecto es desarrollar una aplicación web monolítica para blogs y foros que permita a los usuarios crear, leer, actualizar y eliminar publicaciones y temas de discusión.
 
 ### 1.2. Alcance del Proyecto
-El alcance del proyecto incluye la creación de usuarios, la autenticación, la gestión de entradas de blog.
+El alcance del proyecto incluye la creación de usuarios, la autenticación, la gestión de entradas de blog,
+la gestión de comentarios y la creación de temas de foro.
 
 ## 2. Requisitos del Proyecto
 
@@ -18,6 +19,8 @@ El alcance del proyecto incluye la creación de usuarios, la autenticación, la 
 ### 2.2. Funcionalidades Principales
 - Registro y autenticación de usuarios.
 - Publicación y gestión de entradas de blog.
+- Gestión de comentarios.
+- Creación y gestión de temas de foro.
 
 ## 3. Requisitos Funcionales
 
@@ -25,7 +28,17 @@ El alcance del proyecto incluye la creación de usuarios, la autenticación, la 
 Los usuarios se registrarán proporcionando un nombre, email y contraseña. La autenticación se realizará utilizando JSON Web Tokens (JWT).
 
 ### 3.2. Gestión de Entradas de Blog
-Los autores podrán crear nuevas entradas de blog, editarlas y eliminarlas. Los visitantes podrán leer todas las entradas de blog.
+Los autores y administradores podrán crear nuevas entradas de blog, editarlas y eliminarlas. Los visitantes podrán leer todas las entradas de blog.
+
+### 3.3. Gestión de Comentarios
+Los comentarios se almacenarán en una tabla separada. Los comentarios podrán ser leídos por los visitantes y los autores. Los autores y administradores podrán comentar las entradas de blog. Lo administradores adicionalmente podrán moderar los comentarios.
+
+### 3.4. Creación y Gestión de Temas de Foro
+Los temas de foro se almacenarán en una tabla separada. Los temas de foro podrán ser leídos por los visitantes, los autores y administradores. Los autores podrán crear temas de foro, removerlos, modificarlos y responder a los temas de foro, así como los administradores.
+
+### 3.5. Gestión de Respuestas de Foro
+Los temas de foro podrán tener varias respuestas. Tanto los autores, como los administradores podrán crear respuestas y remover las propias. Los administradores podrán moderar las respuestas. Los visitantes podrán leer las respuestas.
+
 
 ## 4. Requisitos No Funcionales
 
